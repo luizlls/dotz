@@ -11,7 +11,7 @@ enum PlayerState
 public class Player : MonoBehaviour
 {
     [SerializeField]
-    GameEvent playerDeathEvent;
+    GameEvent playerDied;
 
     [SerializeField]
     Sprite alive;
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         if (state != PlayerState.Alive)
             return;
 
-        if (Input.GetMouseButtonDown(0) && body.velocity.y <= 0) {
+        if (Input.GetMouseButtonDown(0) /* && body.velocity.y <= 0 */) {
             Jump();
         }
 
@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
 
     void Die(bool shouldJump)
     {
-        playerDeathEvent.Raise();
+        playerDied.Raise();
 
         state = PlayerState.Dead;
 
@@ -93,4 +93,3 @@ public class Player : MonoBehaviour
 
     public bool IsAlive() => state != PlayerState.Dead;
 }
-

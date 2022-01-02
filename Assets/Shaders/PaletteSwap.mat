@@ -38,11 +38,11 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _BgColor: {r: 0.96862745, g: 0.80784315, b: 0.68235296, a: 1}
+    - _BgColor: {r: 0.30980393, g: 0.30980393, b: 0.30980393, a: 1}
     - _BgMask: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _Default: {r: 1, g: 1, b: 1, a: 0}
-    - _FgColor: {r: 0.45490196, g: 0.17254902, b: 0.32156864, a: 1}
+    - _FgColor: {r: 0.72156864, g: 0.67058825, b: 0.67058825, a: 1}
     - _FgDefault: {r: 0, g: 0.02433443, b: 1, a: 0}
     - _FgMask: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

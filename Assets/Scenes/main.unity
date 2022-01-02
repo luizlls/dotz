@@ -467,6 +467,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3875675391697759117, guid: 6368a4a138597674aaf0d28c412051af, type: 3}
+      propertyPath: playerDied
+      value: 
+      objectReference: {fileID: 11400000, guid: a5c19c36bf597494ca005cf848e9627b, type: 2}
+    - target: {fileID: 3875675391697759117, guid: 6368a4a138597674aaf0d28c412051af, type: 3}
       propertyPath: playerDeathEvent
       value: 
       objectReference: {fileID: 11400000, guid: a5c19c36bf597494ca005cf848e9627b, type: 2}
